@@ -21,11 +21,14 @@ TEAF ensures that every digital event is "anchored" before it is interpreted. Th
 
 ```mermaid
 graph TD
-    Data[Raw Digital Event / Sensor Data] --> Anchor{Temporal Anchor}
-    Anchor -->|Hash + Timestamp| Chain[Distributed Ledger / Secure Log]
-    Chain --> Governance{Epistemic Governance}
+    %% Layer 1: The Input
+    Signal[RAW SIGNAL: Sensor/Log Data] --> Anchor{Temporal Anchor}
     
-    subgraph "TEAF Validation Core"
+    %% Layer 2: The Assertion Core
+    Anchor -->|Hash + Timestamp| Chain[Distributed Ledger / Secure Log]
+    Chain --> Governance{EPISTEMIC GOVERNANCE}
+    
+    subgraph "TEAF Constraint-Based Validation"
     V1[Linear Continuity Check]
     V2[Structural Integrity / Hash Lock]
     V3[Distributed Verification]
@@ -35,10 +38,14 @@ graph TD
     Governance --- V2
     Governance --- V3
     
-    Governance --> Result[Legitimate Temporal Assertion]
-    
-    style Anchor fill:#f96,stroke:#333,stroke-width:2px
-    style Result fill:#bbf,stroke:#333,stroke-width:2px
+    %% Layer 3: The Output & Separation
+    Governance --> Assertion[LEGITIMATE TEMPORAL ASSERTION]
+    Assertion -.-> Interpretation[Algorithmic Interpretation / AI]
+
+    style Signal fill:#e1f5fe,stroke:#01579b
+    style Anchor fill:#fff9c4,stroke:#fbc02d
+    style Assertion fill:#c8e6c9,stroke:#2e7d32
+    style Interpretation fill:#f8bbd0,stroke:#c2185b,stroke-dasharray: 5 5
 ```
 ## Official Publication
 The full whitepaper (v1.1) is officially archived on Zenodo. You can read and download the complete document here:
