@@ -39,7 +39,7 @@ graph TD
     
     style Anchor fill:#f96,stroke:#333,stroke-width:2px
     style Result fill:#bbf,stroke:#333,stroke-width:2px
-
+```
 ## Official Publication
 The full whitepaper (v1.1) is officially archived on Zenodo. You can read and download the complete document here:
 👉 **[Read on Zenodo](https://doi.org/10.5281/zenodo.18715558)**
