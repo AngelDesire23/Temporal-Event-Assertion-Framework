@@ -4,7 +4,7 @@ A constraint-based epistemic governance model for digital and cyber-physical sys
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18715558.svg)](https://doi.org/10.5281/zenodo.18715558)
 
-## Overview
+## 🌐 Overview
 This repository serves as the public index for the **Temporal Event Assertion Framework (TEAF)**. 
 cc-by-nc-nd-4.0 icon Creative Commons Attribution Non Commercial No Derivatives 4.0 International Copyright Copyright (c) 2026 Jadwin M.E. Rompis. All rights reserved under CC BY-NC-ND 4.0.
 TEAF is a conceptual model designed to establish event legitimacy in digital and cyber-physical systems. It separates raw signal, temporal assertion, and algorithmic interpretation, ensuring that time remains the primary epistemic authority in event validation.
@@ -14,20 +14,7 @@ TEAF is a conceptual model designed to establish event legitimacy in digital and
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18715558.svg)](https://doi.org/10.5281/zenodo.18715558)
 ![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
 
-## 🌐 Overview
-TEAF is a constraint-based epistemic governance model designed to establish event legitimacy in digital and cyber-physical systems. It positions **Time** as the primary authority, separating raw signals from algorithmic interpretation to ensure data integrity in non-deterministic environments.
 
----
-
-# Temporal Event Assertion Framework (TEAF)
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18715558.svg)](https://doi.org/10.5281/zenodo.18715558)
-![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
-
-## 🌐 Overview
-TEAF is a constraint-based epistemic governance model designed to establish event legitimacy in digital and cyber-physical systems. It positions **Time** as the primary authority, separating raw signals from algorithmic interpretation to ensure data integrity in non-deterministic environments.
-
----
 
 ## 🛠️ Framework Logic Flow
 TEAF ensures that every digital event is "anchored" before it is interpreted. This prevents retroactive manipulation and AI-generated hallucinations.
