@@ -19,6 +19,16 @@ TEAF is a constraint-based epistemic governance model designed to establish even
 
 ---
 
+# Temporal Event Assertion Framework (TEAF)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18715558.svg)](https://doi.org/10.5281/zenodo.18715558)
+![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
+
+## 🌐 Overview
+TEAF is a constraint-based epistemic governance model designed to establish event legitimacy in digital and cyber-physical systems. It positions **Time** as the primary authority, separating raw signals from algorithmic interpretation to ensure data integrity in non-deterministic environments.
+
+---
+
 ## 🛠️ Framework Logic Flow
 TEAF ensures that every digital event is "anchored" before it is interpreted. This prevents retroactive manipulation and AI-generated hallucinations.
 
